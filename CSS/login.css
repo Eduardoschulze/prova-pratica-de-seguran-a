@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+    color: blue;
+}
+
+.card {
+background-color: grey;
+padding: 30px;
+border-radius: 10px;
+width: 320px;
+
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #cce;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input:focus {
+    outline:none;
+    border-color: blueviolet;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: lightsalmon;
+    color: coral;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.0s;
+}
+
+button:hover {
+    background-color: dimgrey;
+    transform: scale(1.02);
+}
+
+a {
+    color: darkviolet;
+}
